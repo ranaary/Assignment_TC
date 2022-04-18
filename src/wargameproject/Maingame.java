@@ -27,12 +27,12 @@ public class Maingame {
       
         System.out.print("Enter name of first player : ");
         String p1 = input.next();
-        Player player1 = new Player(p1);
+        Players player1 = new Players(p1);
         player1.setName(p1);
         
         System.out.print("Enter name of second player : ");
         String p2 = input.next();
-        Player player2 = new Player(p2);
+        Players player2 = new Players(p2);
         player2.setName(p2);
         
         if(p1.length()== 0 && p2.length() == 0 ){
