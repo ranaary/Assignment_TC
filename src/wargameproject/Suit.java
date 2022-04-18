@@ -8,6 +8,7 @@ package wargameproject;
  *
  * @author ranaa
  */
+// this card stores suit name of cards game
 public enum Suit {
     Hearts,
     Diamonds,

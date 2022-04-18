@@ -8,6 +8,7 @@ package wargameproject;
  *
  * @author ranaa
  */
+// this class store the rank of cards
 public enum Rank {
 //    One,
     Two,
