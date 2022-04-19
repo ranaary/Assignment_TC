@@ -78,7 +78,7 @@ public class Maingame {
                 int comparable = playerOneTopCard.compareTo(playerTwoTopCard);
 
                 switch (comparable) {
-                    case -1: // player 1 winner
+                    case -1: // player1 winner
                         winner = player1;
                         player1deck.addCard(playerTwoTopCard);
                         player2deck.removeCard(playerTwoTopCard);
